@@ -1,0 +1,1 @@
+{"jobID":"2f9735d2-cee3-777c-385c-af13f1504c81","spec":{"type":"policy","cause":{"Message":"","User":"Rony Kouyoumjian \u003crony.kouyoumjian@murex.com\u003e"},"spec":{"dev:deployment/podinfo":{"add":{"automated":"true"},"remove":null}}},"result":null}
