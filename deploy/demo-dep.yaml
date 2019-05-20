@@ -6,7 +6,6 @@ metadata:
   namespace: dev
   annotations:
     flux.weave.works/tag.podinfod: glob:*
-    flux.weave.works/automated: 'true'
 spec:
   replicas: 4
   selector:
@@ -21,6 +20,6 @@ spec:
     spec:
       containers:
       - name: demo-metics
-        image: quay.io/brice/metrics-demo:master
+        image: quay.io/brice/metrics-demo:v4-subscription-service
         ports:
         - containerPort: 3000
