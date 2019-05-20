@@ -3,7 +3,6 @@ kind: Ingress
 metadata:
   annotations:
     kubernetes.io/ingress.class: traefik
-    traefik.frontend.rule.type: PathPrefixStrip
   creationTimestamp: null
   name: demo-metrics
   namespace: dev
@@ -15,5 +14,6 @@ spec:
           serviceName: demo-metrics
           servicePort: 3000
         path: /demo-metrics
+    host: training-user-20.training.weave.works
 status:
   loadBalancer: {}
